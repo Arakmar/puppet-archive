@@ -1,4 +1,4 @@
-require 'puppet_x/bodeco/util'
+require File.dirname(__FILE__) + "/../../../puppet_x/bodeco/util"
 
 module Puppet::Parser::Functions
   # Public: go file md5 checksum
